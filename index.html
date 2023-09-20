@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix Clone</title>
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <!-- <link rel="stylesheet" href="" class="css">  -->
   </head>
   <body>
@@ -28,16 +30,16 @@
               </g>
             </svg>
           </div>
-          <div class="language-signin">
-            <div class="language">
-              <select class="language-1">
+          <div class="right-half">
+            <div class="dropdown-container">
+              <span class="material-icons language">language</span>
+              <select class="language-picker">
                 <option>English</option>
                 <option>हिन्दी</option>
               </select>
+              <span class="material-icons drop-down">arrow_drop_down</span>
             </div>
-            <div class="btn-1">
-              <button>Sign In</button>
-            </div>
+            <button class="btn-1">Sign In</button>  
           </div>
         </nav>
         <div class="content">
@@ -45,16 +47,14 @@
             <h4>Endless entertainment starts at just ₹ 149. Cancel anytime.</h4>
             <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
             <div class="mail-btn">
-                <input type="text" placeholder="Email address">
-                <button class="btn-2">Get Started ></button>
+                <input placeholder="Email address">
+                <button class="btn-2">Get Started<span class="material-icons">
+                  chevron_right
+                  </span></button>
             </div>
         </div>
       </div>
     </header>
-    <!-- <div class="border-1">
-    </div>
-    <div class="back-black">
-    </div> -->
 
     <section class="body-section">
       <div class="left-item">
@@ -68,5 +68,124 @@
         </video>
       </div>
     </section>
+    <section class="body-section">
+      <div class="left-item-2 static-left-item">
+        <img src="./Assets/secondscreen.jpg" alt="secondimage">
+        <div class="Download-section">
+          <img data-uia="nmhp-card-animation-asset-animation" alt="" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" class="default-ltr-cache-1t1z3a4" height="80px">
+          <div class="Download-section-text">
+            <h3>Stranger Things</h3>
+            <p>Downloading... </p>
+            <div data-uia="nmhp-card-animation-asset-custom" aria-hidden="true" class="default-ltr-cache-1q4up1i e15c37ii5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="right-item-2">
+        <h1>Download your show to watch offline</h1>
+        <p>Save your favourites easily and always have something to watch.</p>
+      </div>
+      
+    </section>
+    <section class="body-section">
+      <div class="left-item">
+        <h1>Watch everywhere</h1>
+        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+      </div>
+      <div class="right-item-3">
+        <img src="./Assets/thirdscreen.png" alt="thirdimage">
+        <video muted loop autoplay>
+          <source src="./Assets/screen2-video.m4v">
+        </video>
+      </div>
+    </section>
+    <section class="body-section">
+      <div class="right-item">
+        <img src="./Assets/fourthscreen.png" alt="firstimage">
+      </div>
+      <div class="left-item">
+        <h1>Create profiles for kids</h1>
+        <p>Send children on adventures with their favourite characters in space made just for them-free with your membership.</p>
+      </div>
+    </section>
+    <section class="body-section-5">
+      <h1>Frequently Asked Questions</h1>
+      <div class="faq-container">
+        <p>What is Netflix?</p>
+        <span class="material-icons">add</span>
+      </div>
+      <div class="faq-container">
+        <p>How much does Neflix cost?</p>
+        <span class="material-icons">add</span>
+      </div>
+      <div class="faq-container">
+        <p>Where can I watch?</p>
+        <span class="material-icons">add</span>
+      </div>
+      <div class="faq-container">
+        <p>How do I cancel?</p>
+        <span class="material-icons">add</span>
+      </div>
+      <div class="faq-container">
+        <p>What can I watch on Neflix?</p>
+        <span class="material-icons">add</span>
+      </div>
+      <div class="faq-container">
+        <p>Is Neflix good for kids?</p>
+        <span class="material-icons">add</span>
+      </div>
+      
+      <div class="membership">
+        <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+        <div class="mail-btn">
+          <input placeholder="Email address">
+          <button class="btn-2">Get Started<span class="material-icons">
+            chevron_right
+            </span></button>
+      </div>
+      </div>
+    </section>
+    <section class="body-section-6">
+      <div class="bottom-section"> 
+        <p>Questions? Call <span class="number">000-800-919-1694</span></p>
+        <div class="tags">
+            <div class="column-1">
+              <a href="#">FAQ</a>
+              <a href="#">Investor Relation</a>
+              <a href="#">Privacy</a>
+              <a href="#">Speed Test</a>
+            </div>
+            <div class="column-1">
+              <a href="#">Help Center</a>
+              <a href="#">Jobs</a>
+              <a href="#">Cookes Preferences</a>
+              <a href="#">Legal Notices</a>
+            </div>
+            <div class="column-1">
+              <a href="#">Account</a>
+              <a href="#">Ways to Watch</a>
+              <a href="#">Corporate Information</a>
+              <a href="#">Only on Netflix</a>
+            </div>
+            <div class="column-1">
+              <a href="#">Media Center</a>
+              <a href="#">Terms of Use</a>
+              <a href="#">Contact Us</a>
+            </div>
+      </div>
+      
+    </section>
+
+    <div class="rightt">
+      <div class="dropdown-container">
+        <span class="material-icons language">language</span>
+        <select class="language-picker">
+          <option>English</option>
+          <option>हिन्दी</option>
+        </select>
+        <span class="material-icons drop-down-1">arrow_drop_down</span>
+      </div> 
+    </div>
+
+    <p>Netflix India</p>
   </body>
 </html>
